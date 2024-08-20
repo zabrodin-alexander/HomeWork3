@@ -29,7 +29,7 @@ public class Main {
         byte oneTeacher = 23;
         byte twoTeacher = 27;
         byte threeTeacher = 30;
-        int student = (oneTeacher + threeTeacher + threeTeacher);
+        int student = (oneTeacher + twoTeacher + threeTeacher);
         short paper = 480;
         int oneStudent = paper / student;
         System.out.println("На каждого ученика рассчитано " + oneStudent + " листов бумаги");
@@ -43,7 +43,7 @@ public class Main {
         System.out.println("За сутки машина произвела " + day + " штук бутылок");
         int threeDay = day * 3;
         System.out.println("За трое суток машина произвела " + threeDay + " штук бутылок");
-        int oneMonth = threeDay * 24;
+        int oneMonth = day * 30;
         System.out.println("За 1 месяц машина произвела " + oneMonth + " штук бутылок");
 
         int whitePaint = 2;
@@ -72,14 +72,25 @@ public class Main {
         int oneDiet = 250;
         int twoDiet = 500;
         int average = (oneDiet + twoDiet) / 2;
-        int wieght = 7 * oneKg;
-        oneDiet = wieght / oneDiet;
+        int weight = 7 * oneKg;
+        oneDiet = weight / oneDiet;
         System.out.println("При потере в день 250 грамм, спортсмен скинет 7 кг через " + oneDiet + " дней");
-        twoDiet = wieght / twoDiet;
+        twoDiet = weight / twoDiet;
         System.out.println("При потере в день 500 грамм, спортсмен скинет 7 кг через " + twoDiet + " дней");
-        average = wieght / average;
+        average = weight / average;
         System.out.println("При средней потере в день 375 грамм, спортсмен скинет 7 кг через " + average + " дней");
 
-
+        float masha = 67760;
+        float newMasha = masha * 1.1f;
+        float oneDifference = newMasha - masha;
+        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + oneDifference + " рублей");
+        float denis = 83690;
+        float newDenis  = denis * 1.1f;
+        float twoDifference = newDenis - denis;
+        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + twoDifference + " рублей");
+        float kristina = 76230;
+        float newKristina = kristina * 1.1f;
+        float threeDifference = newKristina - kristina;
+        System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + threeDifference + " рублей");
     }
 }
