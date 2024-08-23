@@ -29,7 +29,7 @@ public class Main {
         byte oneTeacher = 23;
         byte twoTeacher = 27;
         byte threeTeacher = 30;
-        int student = (oneTeacher + twoTeacher + threeTeacher);
+        int student = oneTeacher + twoTeacher + threeTeacher;
         short paper = 480;
         int oneStudent = paper / student;
         System.out.println("На каждого ученика рассчитано " + oneStudent + " листов бумаги");
