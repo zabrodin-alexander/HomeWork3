@@ -1,20 +1,21 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println();
-        byte a = 100;
-        System.out.println(a);
-        short b = 1000;
-        System.out.println(b);
-        int c = 10000;
-        System.out.println(c);
-        long d = 100000L;
-        System.out.println(d);
-        float e = 1.123456f;
-        System.out.println(e);
-        double f = 1.1234567;
-        System.out.println(f);
-        System.out.println();
-
+        {
+            byte a = 100;
+            System.out.println(a);
+            short b = 1000;
+            System.out.println(b);
+            int c = 10000;
+            System.out.println(c);
+            long d = 100000L;
+            System.out.println(d);
+            float e = 1.123456f;
+            System.out.println(e);
+            double f = 1.1234567;
+            System.out.println(f);
+            System.out.println();
+        }
         float one = 27.12f;
         System.out.println(one);
         long two = 987678965549L;
@@ -101,6 +102,36 @@ public class Main {
         float threeDifference = newKristina - kristina;
         System.out.println("Кристина теперь получает " + newKristina + " рублей. Месячный доход вырос на " + threeDifference + " рублей");
         System.out.println();
+
+
+        byte a = 12;
+        byte b = 27;
+        byte c = 44;
+        byte d = 15;
+        byte e = 9;
+        int result = a * (b + (c - d * e));
+        result = -result;
+        System.out.println(result);
+        System.out.println();
+
+        int f = 5;
+        int g = 7;
+        f = f + g;
+        g = f - g;
+        f = f - g;
+        System.out.println("f = "+ f );
+        System.out.println("g = "+ g );
+        System.out.println();
+
+        int z = 392;
+        int x = z / 100;
+        System.out.println(x);
+        x = (z / 10) % 10;
+        System.out.println(x);
+        x = z % 10;
+        System.out.println(x);
+
+
 
     }
 }
